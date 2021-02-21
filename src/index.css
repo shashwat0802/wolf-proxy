@@ -8,3 +8,41 @@ body {
   /* background: linear-gradient(252.29deg, #484170 0%, #333050 100%); */
   background: #141325 !important;
 }
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+
+.select-container {
+  padding: 5px;
+  border: 1px solid #fff;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.select-container select {
+  border: 0;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.primary-btn {
+  background: #ffffff !important;
+  border-radius: 5px !important;
+  width: 150px;
+}
+
+.product-bg {
+  background-image: url('./img/product-bg.svg');
+  background-size: 100% 100%;
+}
+
+.container {
+  max-width: 1240px !important;
+}
