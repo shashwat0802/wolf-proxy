@@ -26,6 +26,8 @@ const Product = () => {
               <div className="select-container">
                 <select name="" id="" className="">
                   <option value="">€17/1GB</option>
+                  <option value="">€34/2GB</option>
+                  <option value="">€85/5GB</option>
                 </select>
               </div>
               <button className="btn primary-btn fs-13 font-weight-bold mx-3">
@@ -49,6 +51,8 @@ const Product = () => {
               <div className="select-container">
                 <select name="" id="" className="">
                   <option value="">€5/1GB</option>
+                  <option value="">€10/2GB</option>
+                  <option value="">€50/5GB</option>
                 </select>
               </div>
               <button className="btn primary-btn fs-13 font-weight-bold mx-3">
@@ -79,6 +83,8 @@ const Product = () => {
               <div className="select-container">
                 <select name="" id="" className="">
                   <option value="">€50/25 ISPs</option>
+                  <option value="">€100/50 ISPs</option>
+                  <option value="">€200/100 ISPs</option>
                 </select>
               </div>
               <button className="btn primary-btn fs-13 font-weight-bold mx-3">
@@ -108,7 +114,9 @@ const Product = () => {
             <div className="d-flex mt-4">
               <div className="select-container">
                 <select name="" id="" className="">
-                  <option value="">€17,50/25</option>
+                  <option value="">€17,5/25</option>
+                  <option value="">€35/50</option>
+                  <option value="">€70/100</option>
                 </select>
               </div>
               <button className="btn primary-btn fs-13 font-weight-bold mx-3">
