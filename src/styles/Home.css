@@ -20,7 +20,8 @@
   height: 330px;
   width: 260px;
 }
-.feature-wrapper:hover {
+/* zoom in */
+/* .feature-wrapper:hover {
   height: 340px;
   width: 270px;
 }
@@ -31,7 +32,7 @@
 
 .feature-wrapper:hover p {
   font-size: 15px !important;
-}
+} */
 
 .section-2 {
   background-image: url('../img/section-2.svg');
