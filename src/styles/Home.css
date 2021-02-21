@@ -1,0 +1,75 @@
+.main-section {
+  background-image: url('../img/mainbanner.svg');
+  background-position: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main-text {
+  font-size: 72px;
+}
+
+.secondary-text {
+  font-size: 24px;
+}
+
+.feature-wrapper {
+  background: #f7f7f7;
+  border-radius: 10px;
+  height: 330px;
+  width: 260px;
+}
+
+.section-2 {
+  background-image: url('../img/section-2.svg');
+  background-size: 100%;
+}
+
+.primary-color {
+  color: #141325;
+}
+
+.secondary-color {
+  color: rgba(20, 19, 37, 0.5);
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.right-img {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  width: 14%;
+}
+
+.left-img {
+  position: absolute;
+  left: 0;
+  bottom: -70px;
+  width: 14%;
+}
+
+.faq-wrapper {
+  border: 1px solid #484271;
+
+  width: 260px;
+  height: 330px;
+  border-radius: 10px;
+}
+
+.main-color {
+  color: #484271;
+  font-size: 48px;
+}
+
+.follow-btn {
+  background-color: #514b7b !important;
+  border-radius: 5px;
+}
