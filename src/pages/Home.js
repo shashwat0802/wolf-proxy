@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import '../styles/Home.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 const Home = () => {
   return (
     <>
@@ -72,7 +73,7 @@ const Home = () => {
               <div className="feature-wrapper text-center  d-flex justify-content-center align-items-center flex-column">
                 <img src={require('../img/speed.svg').default} alt="" />
                 <h2 className="primary-color mt-4 mb-2 font-weight-bolder fs-20">
-                  24/7 Support
+                  Fast Speeds
                 </h2>
                 <p className="secondary-color fs-13 mt-3">
                   Our proxies are one of the fastest <br /> residential proxies

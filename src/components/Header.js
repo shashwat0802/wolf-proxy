@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../styles/Header.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 const Header = () => {
   return (
     <Navbar bg="transparent" expand="lg" className="my-md-2">
@@ -20,15 +21,31 @@ const Header = () => {
             <Nav.Link href="/" className="text-white mx-md-3">
               Home
             </Nav.Link>
-            <Nav.Link href="#features" className="text-white mx-md-3">
+            <Link
+              className="text-white mx-md-3 pt-2"
+              activeClass="active"
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={700}
+            >
               Features
-            </Nav.Link>
+            </Link>
             <Nav.Link href="/products" className="text-white mx-md-3">
               Plans
             </Nav.Link>
-            <Nav.Link href="#faq" className="text-white mx-md-3">
+            <Link
+              className="text-white mx-md-3 pt-2"
+              activeClass="active"
+              to="faq"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={700}
+            >
               FAQ
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse>
