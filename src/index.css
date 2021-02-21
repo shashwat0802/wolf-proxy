@@ -40,9 +40,17 @@ body {
 
 .product-bg {
   background-image: url('./img/product-bg.svg');
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 566px !important;
+  border-radius: 10px;
 }
 
 .container {
-  max-width: 1240px !important;
+  max-width: 1170px !important;
+}
+
+ul li {
+  font-size: 15px !important;
 }

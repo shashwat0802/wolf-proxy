@@ -5,20 +5,20 @@ const Product = () => {
     <>
       <Header />
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-md-between">
           <div className="col-12 col-md-6 product-bg p-5 d-flex flex-column justify-content-between">
             <div>
               <h1 className="text-white fs-32 ">Premium Residential</h1>
               <ul className="text-white ml-3">
-                <li className="my-1">Very fast speed between 100-500ms</li>
-                <li className="my-1">
+                <li className="my-0">Very fast speed between 100-500ms</li>
+                <li className="my-0">
                   Unbanned on most sites including Footlocker EU, Footsites,
                   Shopify Anti-Bot, Mesh, Solebox, Supreme, Naked and many more{' '}
                 </li>
-                <li className="my-1">
+                <li className="my-0">
                   Access to over 120 regions including our special Mesh pool
                 </li>
-                <li className="my-1">Proxy format: IP:PORT:USER:PASS</li>
+                <li className="my-0">Proxy format: IP:PORT:USER:PASS</li>
               </ul>
             </div>
 
@@ -38,10 +38,10 @@ const Product = () => {
             <div>
               <h1 className="text-white fs-32 ">Raffle Residential</h1>
               <ul className="text-white ml-3">
-                <li className="my-1"> Prefect for raffle botting </li>
-                <li className="my-1">No expiration</li>
-                <li className="my-1">Access to over 90 regions</li>
-                <li className="my-1">Proxy format: IP:PORT:USER:PASS</li>
+                <li className="my-0"> Prefect for raffle botting </li>
+                <li className="my-0">No expiration</li>
+                <li className="my-0">Access to over 90 regions</li>
+                <li className="my-0">Proxy format: IP:PORT:USER:PASS</li>
               </ul>
             </div>
 
@@ -60,18 +60,18 @@ const Product = () => {
       </div>
       <div className="container">
         {/* bottom row */}
-        <div className="row">
-          <div className="col-12 col-md-6 product-bg p-5 d-flex flex-column justify-content-between">
+        <div className="row d-flex justify-content-md-between my-md-3 ">
+          <div className="col-12 col-md-6 product-bg p-5 d-flex flex-column justify-content-around">
             <div>
               <h1 className="text-white fs-32 ">Death ISP</h1>
               <ul className="text-white ml-3">
-                <li className="my-1">
+                <li className="my-0">
                   Unbanned on most sites including Footlocker EU, Footsites,
                   Shopify Anti-Bot, Mesh, Solebox, Supreme, Naked and many more{' '}
                 </li>
-                <li className="my-1">Expires after 1 month</li>
-                <li className="my-1">Location UK</li>
-                <li className="my-1">Proxy format: IP:PORT:USER:PASS</li>
+                <li className="my-0">Expires after 1 month</li>
+                <li className="my-0">Location UK</li>
+                <li className="my-0">Proxy format: IP:PORT:USER:PASS</li>
               </ul>
             </div>
 
@@ -87,21 +87,21 @@ const Product = () => {
             </div>
           </div>
           {/* right side of 2nd row */}
-          <div className="col-12 col-md-6 product-bg p-5 d-flex flex-column justify-content-between">
+          <div className="col-12 col-md-6 product-bg p-5 d-flex flex-column justify-content-around">
             <div>
               <h1 className="text-white fs-32 ">Death Weekly DCs</h1>
               <ul className="text-white ml-3">
-                <li className="my-1"> Blazing fast speeds between 9-70ms </li>
-                <li className="my-1">
+                <li className="my-0"> Blazing fast speeds between 9-70ms </li>
+                <li className="my-0">
                   Unbanned on most sites including Footlocker EU, Footsites,
                   Shopify Anti-Bot, Mesh, Solebox, Supreme, Naked and many more
                 </li>
-                <li className="my-1"> Expires after 7 days</li>
-                <li className="my-1">
+                <li className="my-0"> Expires after 7 days</li>
+                <li className="my-0">
                   Location random or on demand, if stock left, in ticket:
                   Netherlands, France, Germany
                 </li>
-                <li className="my-1">Proxy format: IP:PORT:USER:PASS</li>
+                <li className="my-0">Proxy format: IP:PORT:USER:PASS</li>
               </ul>
             </div>
 
