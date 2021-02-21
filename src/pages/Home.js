@@ -18,7 +18,10 @@ const Home = () => {
         </div>
       </section>
       {/* 2nd section */}
-      <section className="section-2 d-flex justify-content-center align-items-center p-5">
+      <section
+        className="section-2 d-flex justify-content-center align-items-center p-5"
+        id="features"
+      >
         <div className="container">
           <h1 className="text-center text-white mt-2 mb-5 font-weight-bolder">
             Features
@@ -106,7 +109,7 @@ const Home = () => {
         </div>
       </section>
       {/* 4th section */}
-      <section className="section-4 p-4">
+      <section className="section-4 p-4" id="faq">
         <div className="container">
           <h1 className="text-white text-center font-weight-bolder">FAQ</h1>
           <div className="row my-5">
@@ -189,7 +192,14 @@ const Home = () => {
             @deathproxies
           </p>
 
-          <button className="btn follow-btn text-white px-4">Follow us</button>
+          <button
+            className="btn follow-btn text-white px-4"
+            onClick={() => {
+              window.open('https://twitter.com/ProxiesDeath');
+            }}
+          >
+            Follow us
+          </button>
         </div>
       </section>
     </>
