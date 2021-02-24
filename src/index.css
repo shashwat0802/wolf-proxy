@@ -27,3 +27,27 @@ body {
 .fs-20 {
   font-size: 20px;
 }
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-33 {
+  font-size: 33px;
+}
+
+.tertiary-color {
+  color: #d9e1f8 !important;
+}

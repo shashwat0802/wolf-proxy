@@ -4,3 +4,54 @@
   background: #575e7a;
   border-radius: 50px;
 }
+
+.feature-box {
+  background: #363757;
+  border-radius: 10px;
+  min-height: 240px;
+}
+
+.feature-point {
+  width: 47px;
+  height: 47px;
+  background: #8a86ca;
+  border-radius: 50%;
+}
+
+/* plan section */
+.plan-section {
+  background-image: url('../img/Plans.svg');
+}
+
+.plans-wrapper {
+  background: #3a3855;
+  height: 740px;
+}
+
+.button-active {
+  background: #7672ad;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.button-inactive {
+  background: #5b5883;
+  width: 30%;
+}
+
+.button-wrapper {
+  border-radius: 5px;
+  background: #5b5883;
+  max-width: 300px;
+}
+
+.secondary-btn {
+  background: #5b5883;
+  border-radius: 5px;
+}
+
+.custom-list li {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
