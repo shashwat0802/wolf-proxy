@@ -25,7 +25,8 @@
 
 .plans-wrapper {
   background: #3a3855;
-  height: 740px;
+  max-height: 750px;
+  background-size: 100% 100%;
 }
 
 .button-active {
@@ -54,4 +55,32 @@
   list-style-type: none;
   font-size: 15px;
   font-weight: bolder;
+}
+
+/* faq section */
+.faq-wrapper {
+  height: 180px;
+  background: #363757;
+  border-radius: 10px;
+}
+
+/* social section */
+.social-section {
+  background-image: url('../img/Social.svg');
+  background-size: 100%;
+  width: 90%;
+  height: 355px;
+  background-repeat: no-repeat;
+}
+
+.social-wrapper {
+  width: 244px;
+  height: 181px;
+
+  background: #7672ad;
+  border-radius: 10px;
+}
+
+.footer {
+  background: #363757;
 }

@@ -48,6 +48,14 @@ body {
   font-size: 33px;
 }
 
+.ls-2 {
+  letter-spacing: 0.2em;
+}
+
+.ls-1 {
+  letter-spacing: 0.1em;
+}
+
 .tertiary-color {
   color: #d9e1f8 !important;
 }
