@@ -5,52 +5,25 @@
 }
 
 body {
-  /* background: linear-gradient(252.29deg, #484170 0%, #333050 100%); */
-  background: #141325 !important;
+  background: #242337 !important;
 }
 
-.fs-32 {
-  font-size: 32px;
+.fs-18 {
+  font-size: 18px;
 }
 
-.fs-13 {
-  font-size: 13px !important;
+.primary-color {
+  color: #fcebc0;
 }
 
-.select-container {
-  padding: 5px;
-  border: 1px solid #fff;
-  width: 180px;
-  border-radius: 5px;
+.secondary-color {
+  color: rgba(252, 235, 192, 0.6) !important;
 }
 
-.select-container select {
-  border: 0;
-  outline: none;
-  width: 100%;
-  background-color: transparent;
-  color: #fff;
+.fs-50 {
+  font-size: 50px;
 }
 
-.primary-btn {
-  background: #ffffff !important;
-  border-radius: 5px !important;
-  width: 150px;
-}
-
-.product-bg {
-  background-image: url('./img/product-bg.svg');
-  /* background-size: 100% 100%; */
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 566px !important;
-  border-radius: 10px;
-}
-
-.container {
-  max-width: 1170px !important;
-}
-
-ul li {
-  font-size: 15px !important;
+.fs-20 {
+  font-size: 20px;
 }
