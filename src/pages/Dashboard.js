@@ -2,7 +2,7 @@ import React from 'react';
 const Dashboard = () => {
   return (
     <>
-      <nav className="my-3">
+      <nav className="mt-3">
         <div className="container d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">
             <img src={require('../img/logo2.svg').default} alt="" />
@@ -26,8 +26,14 @@ const Dashboard = () => {
           </div>
         </div>
       </nav>
-      <section className="mt-5">
+      <section className="mt-3">
         <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6"></div>
+            <div className="col-12 col-md-6">
+              <h3 className="primary-color fs-18 mb-2">Active Plans</h3>
+            </div>
+          </div>
           <div className="row">
             <div className="col-12 col-md-6">
               <div className="d-flex justify-content-between">
@@ -140,6 +146,114 @@ const Dashboard = () => {
                         Generate
                       </button>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* right side */}
+            <div className="col-12 col-md-6">
+              <div>
+                <div className="right-header d-flex justify-content-between px-5 py-2 ">
+                  <div>
+                    <button
+                      className="internal-btn px-4 py-2 my-2 fs-12 font-weight-bold"
+                      style={{ color: '#E5E4FF' }}
+                    >
+                      Residential
+                    </button>
+                    <p
+                      style={{ color: 'rgba(28, 27, 49, 0.5)' }}
+                      className="fs-12 font-weight-bold mb-1"
+                    >
+                      Amount
+                    </p>
+                    <h3 className="fs-28 primary-color font-weight-bold my-1">
+                      5GB
+                    </h3>
+                    <p
+                      style={{ color: 'rgba(28, 27, 49, 0.5)' }}
+                      className="fs-12 font-weight-bold mb-1"
+                    >
+                      Expire
+                    </p>
+                    <h3 className="fs-28 primary-color font-weight-bold my-1">
+                      25 Days
+                    </h3>
+                  </div>
+                  <div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <button
+                        className="internal-btn px-4 py-2 my-2 fs-12 font-weight-bold"
+                        style={{ color: '#E5E4FF' }}
+                      >
+                        ISP
+                      </button>
+                      <img
+                        src={require('../img/Copy.svg').default}
+                        alt=""
+                        className="ml-4"
+                      />
+                    </div>
+
+                    <p
+                      style={{ color: 'rgba(28, 27, 49, 0.5)' }}
+                      className="fs-12 font-weight-bold mb-1"
+                    >
+                      Amount
+                    </p>
+                    <h3 className="fs-28 primary-color font-weight-bold my-1">
+                      25GB
+                    </h3>
+                    <p
+                      style={{ color: 'rgba(28, 27, 49, 0.5)' }}
+                      className="fs-12 font-weight-bold mb-1"
+                    >
+                      Expire
+                    </p>
+                    <h3 className="fs-28 primary-color font-weight-bold my-1">
+                      15 Days
+                    </h3>
+                  </div>
+                </div>
+                {/* right bottom */}
+                <div
+                  className="content-bg px-5 py-3"
+                  style={{ borderRadius: '0 0 8px 8px', width: '544px' }}
+                >
+                  <h3 className="primary-color fs-18 mb-3">Proxy List</h3>
+                  <div className="scrollable">
+                    <p
+                      className="mb-1  fs-13 w-50"
+                      style={{ color: '#E5E4FF' }}
+                    >
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                      98.876.5432.2345:lsakjasfk:lkajsfakeiw
+                    </p>
                   </div>
                 </div>
               </div>

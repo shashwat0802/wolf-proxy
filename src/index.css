@@ -56,6 +56,10 @@ body {
   font-size: 26px;
 }
 
+.fs-28 {
+  font-size: 28px;
+}
+
 .fs-35 {
   font-size: 35px;
 }
@@ -139,4 +143,36 @@ body {
   background: #4e4d6b;
   border: 1px solid #a7a4f3;
   border-radius: 4px;
+}
+
+.internal-btn {
+  background: #6f6d9f;
+  border-radius: 14px;
+  border: 0;
+}
+
+.right-header {
+  background-image: url('./img/Path\ 3.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 190px;
+}
+
+.scrollable {
+  height: 298px;
+  overflow-y: scroll;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: #e5e4ff !important;
+  border-radius: 5px !important;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: #918ecd !important;
+  border-radius: 5px !important;
+}
+.scrollable::-webkit-scrollbar {
+  width: 7px;
 }
