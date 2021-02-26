@@ -64,7 +64,12 @@ const Home = () => {
                 </Link>
               </li>
             </ul>
-            <button className="  btn primary-btn px-4 text-white ls-2 ">
+            <button
+              className="  btn primary-btn px-4 text-white ls-2 "
+              onClick={() => {
+                window.location.href = '/dashboard';
+              }}
+            >
               Dashboard
             </button>
           </div>

@@ -20,6 +20,22 @@ body {
   color: rgba(252, 235, 192, 0.6) !important;
 }
 
+.tertiary-color {
+  color: #d9e1f8 !important;
+}
+
+.fourth-color {
+  color: #8280b1;
+}
+
+.fifth-color {
+  color: #a7a4f3 !important;
+}
+
+.sixth-color {
+  color: rgba(167, 164, 243, 0.5);
+}
+
 .fs-50 {
   font-size: 50px;
 }
@@ -48,6 +64,14 @@ body {
   font-size: 33px;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
 .ls-2 {
   letter-spacing: 0.2em;
 }
@@ -56,6 +80,63 @@ body {
   letter-spacing: 0.1em;
 }
 
-.tertiary-color {
-  color: #d9e1f8 !important;
+.circle {
+  border-radius: 50%;
+}
+
+.content-bg {
+  background: #3f3e59;
+  border-radius: 8px;
+}
+
+.subcontent-bg {
+  background: #585681;
+  border-radius: 4px;
+  width: 90px;
+  height: 58px;
+}
+
+.data-circle {
+  width: 122px;
+  height: 123px;
+  background-image: url('./img/Circle.svg');
+  background-size: 100% 100%;
+}
+
+.header-bg {
+  background: #545273;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.active-link {
+  color: #e5e4ff;
+}
+
+.underline {
+  border-bottom: 3px solid #fff;
+}
+
+.custom-select {
+  background: #4e4d6b !important;
+  width: 231px !important;
+  border: 0 !important;
+}
+.custom-select select {
+  outline: 0 !important;
+
+  background-color: transparent !important;
+  border-radius: 4px !important;
+}
+
+.custom-input {
+  background: #4e4d6b !important;
+  width: 231px !important;
+  border: 0 !important;
+  max-width: 130px;
+}
+
+.custom-btn {
+  background: #4e4d6b;
+  border: 1px solid #a7a4f3;
+  border-radius: 4px;
 }
